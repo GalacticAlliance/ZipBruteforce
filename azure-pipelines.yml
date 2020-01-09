@@ -12,8 +12,5 @@ pool:
 steps:
 
 - script: |
-    sudo apt-get update
-    sudo apt-get install python3
-    curl https://ipinfo.io/ip
-    python -m SimpleHTTPServer 8000
+    uname -a
   displayName: 'Get uname'
